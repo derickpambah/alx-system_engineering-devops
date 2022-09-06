@@ -1,2 +1,2 @@
 #!/bin/bash
-alias l="printenv | grep TRUEKNOWLEDGE" | $((l + 128))
+alias l="echo $TRUEKNOWLEDGE" | $(($(l) + 128))
